@@ -8,7 +8,7 @@ Created on Tue Jul 15 15:21:32 2025
 
 import pickle 
 import streamlit as st
-from sklearn.feature_extraction.text import TfidfVectorizer  
+
 
 
 loaded_model = pickle.load(open('spam_mail_model.sav', 'rb'))
